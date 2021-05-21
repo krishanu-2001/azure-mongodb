@@ -7,7 +7,8 @@ Azure functions with mongodb - development
     install azure-functions extension
     install azure-functions-core-tools/3
     -- Running azurite storage  
-    npm install -g azurite
-    azurite --silent --location c:\azurite --debug c:\azurite\debug.log
+    npm install -g azurite  
+    make folder d:/azurite
+    azurite --silent --location d:\azurite --debug d:\azurite\debug.log
     run func host start in cmd or F5
     use postman to check
